@@ -1,0 +1,102 @@
+<div *ngIf="data">
+  <nav>
+    <h1>Time entry system</h1>
+    <img  src="data:image/png;base64,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"
+ alt="img" />
+    <ul>
+      <li><a routerLink="/admin">Home</a></li>
+      <li><a routerLink="/add-employee/{{ data.empid }}">Timeentry</a></li>
+      <li><a routerLink="/leaveapply"></a>Leaveapp</li>
+      <li><a routerLink="/login">logout</a></li>
+    </ul>
+  </nav>
+  <div id="container">
+    <div id="admin-header">
+      <div id="addmin-img">
+        <img src="https://www.svgrepo.com/show/5125/avatar.svg" alt="" />
+        <p>Name: {{ data.name }}</p>
+        <p>Global ID: {{ data.empid }}</p>
+      </div>
+      <ul>
+        <li routerLink="/admin">
+          <div class="list">
+            <img src="../../assets/dashboard.png" alt="" />
+          </div>
+          <div id="list-p"><p>DashBoard</p></div>
+        </li>
+        <li>
+          <div class="list">
+            <img src="../../assets/freelancer.png" alt="" />
+          </div>
+          <div id="list-p"><p>Profile</p></div>
+        </li>
+        <li routerLink="/admin-employee/{{ this.id }}">
+          <div class="list"><img src="../../assets/employee.png" alt="" /></div>
+          <div id="list-p"><p>All Employee</p></div>
+        </li>
+        <li>
+          <div class="list">
+            <img src="../../assets/marketing.png" alt="" />
+          </div>
+          <div id="list-p"><p>Grades</p></div>
+        </li>
+        <li routerLink="/">
+          <div class="list"><img src="../../assets/logout.png" alt="" /></div>
+          <div id="list-p"><p>Log Out</p></div>
+        </li>
+      </ul>
+    </div>
+
+    <div id="right-section">
+      <div id="Section-item">
+        <div
+          routerLink="/leave/{{ data.empid }}"
+          id="leave-box"
+          class="item-button"
+        >
+          <img src="../../assets/evacuation-plan.png" alt="" />
+          <p>Leave</p>
+        </div>
+        <div
+          id="lop-box"
+          class="item-button"
+          routerLink="/manager-lop/{{this.id}}"
+        >
+          <img src="../../assets/money-bag (1).png" alt="" />
+          <p>Lop</p>
+        </div>
+        <div
+          routerLink="/admin-employee/{{ data.empid }}"
+          id="emp-box"
+          class="item-button"
+        >
+          <img src="../../assets/profiles.png" alt="" />
+          <p>Employee Details</p>
+        </div>
+        <div
+          routerLink="/TimeSheet/{{ data.empid }}"
+          id="emp-box"
+          class="item-button"
+        >
+          <img src="../../assets/schedule.png" alt="" />
+          <p>TimeSheet</p>
+        </div>
+
+        <!-- <div
+          routerLink="/add/{{ data.empid }}"
+          id="leave-box"
+          class="item-button"
+        >
+          <img src="../../assets/profiles.png" alt="" />
+          <p>Add Project</p>
+        </div> -->
+
+        <!-- <div routerLink="/project-assigned" id="lop-box" class="item-button">
+          <img src="../../assets/profiles.png" alt="" />
+          <p>Project Allocation</p>
+        </div> -->
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
